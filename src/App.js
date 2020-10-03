@@ -11,7 +11,7 @@ class App extends Component {
       trainers: [
         {
           name: "Jan",
-          surname: "KowalskiTest",
+          surname: "Kowalski",
           id: "1",
           imageUrl:
             "https://activelife.org.pl/wp-content/uploads/2017/08/02-1-180x180.jpg",
