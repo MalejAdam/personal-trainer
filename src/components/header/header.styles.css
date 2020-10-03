@@ -25,3 +25,9 @@
   cursor: pointer;
   color: #fff;
 }
+
+.option:hover {
+  cursor: pointer;
+  background-color: #606b75;
+  color: #fff;
+}

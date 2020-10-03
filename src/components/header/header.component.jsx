@@ -1,19 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./header.styles.css";
 
 const Header = () => (
   <div className="header navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div className="options">
-      <Link className="option" to="/onas">
+      <HashLink className="option" to="#AboutUs">
         O NAS
-      </Link>
+      </HashLink>
       <Link className="option" to="/rezerwacja">
         REZERWACJA
       </Link>
-      <Link className="option" to="/kontakt">
+      <HashLink className="option" to="#Contact">
         KONTAKT
-      </Link>
+      </HashLink>
     </div>
   </div>
 );
