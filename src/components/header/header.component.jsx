@@ -10,7 +10,7 @@ const Header = () => (
         O NAS
       </HashLink>
       <Link className="option" to="/rezerwacja">
-        REZERWACJA (!!TODO!!)
+        REZERWACJA (TODO)
       </Link>
       <HashLink className="option" to="#Contact">
         KONTAKT
