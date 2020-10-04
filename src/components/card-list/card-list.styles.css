@@ -3,3 +3,19 @@
   margin: 0 auto;
   padding-top: 100px;
 }
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 750px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  opacity: 0.7;
+  text-align: center;
+}

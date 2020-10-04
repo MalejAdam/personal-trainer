@@ -5,9 +5,9 @@ export const Contact = (props) => {
   return (
     <div className="m-2">
       <span class="anchor" id="Contact"></span>
-      <div className="card-container col">
+      <div className="contact-container col">
         <h1>KONTAKT</h1>
-        <p>
+        <p className="contact-text">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
