@@ -9,7 +9,7 @@ export const CardList = (props) => {
   return (
     <div>
       <SlideShow />
-      <div className="card-list row">
+      <div className="card-list row pt-2">
         <AboutUs />
         {props.trainers.map((trainer) => (
           <Card key={trainer.id} trainer={trainer}></Card>

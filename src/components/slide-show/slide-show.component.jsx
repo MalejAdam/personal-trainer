@@ -4,6 +4,7 @@ import im1 from "./image1.jpg";
 import im2 from "./image2.jpg";
 import im3 from "./image3.jpg";
 import "react-slideshow-image/dist/styles.css";
+import "./slide-show.styles.css";
 
 const slideImages = [im1, im2, im3];
 
@@ -15,6 +16,7 @@ const SlideShow = () => {
           <div key={index} style={{ width: "100%" }}>
             <img
               alt="test"
+              className="image-slide"
               style={{ objectFit: "cover", width: "100%" }}
               src={each}
             />

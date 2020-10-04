@@ -17,3 +17,21 @@
 .slide-container {
   width: 100%;
 }
+
+@media (min-width: 100px) {
+  .image-slide {
+    height: 300px;
+  }
+}
+
+@media (min-width: 500px) {
+  .image-slide {
+    height: 500px;
+  }
+}
+
+@media (min-width: 800px) {
+  .image-slide {
+    height: 700px;
+  }
+}
