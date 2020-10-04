@@ -8,8 +8,7 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  background-color: #95dada;
-  border: 1px solid grey;
+  background-color: #3e4559;
   border-radius: 5px;
   padding: 25px;
   -moz-osx-font-smoothing: grayscale;
@@ -19,5 +18,6 @@
 }
 
 .contact-text {
+  color: azure;
   font-size: 25px;
 }
