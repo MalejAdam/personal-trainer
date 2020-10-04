@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "google-map-react": "^2.1.7",
     "react-slideshow-image": "^3.3.0"
   }
 }

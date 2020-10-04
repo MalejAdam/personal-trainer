@@ -4,7 +4,7 @@ import "./contact.styles.css";
 export const Contact = (props) => {
   return (
     <div className="m-2">
-      <span class="anchor" id="Contact"></span>
+      <span className="anchor" id="Contact"></span>
       <div className="contact-container col">
         <h1>KONTAKT</h1>
         <p className="contact-text">
