@@ -56,14 +56,7 @@ const Header = () => (
         alignItems: "center",
       }}
     >
-      <div
-        className="collapse navbar-collapse"
-        id="navbarSupportedContent"
-        style={{
-          display: "flex",
-          flex: "auto",
-        }}
-      >
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <div
           className="options"
           style={{
