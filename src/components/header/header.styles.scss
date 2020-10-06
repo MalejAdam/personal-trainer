@@ -33,14 +33,10 @@
 
 @media (max-width: 500px) {
   .hamburger {
-    display: flex;
-    flex: auto;
+    width: 100%;
   }
-}
 
-@media (min-width: 501px) {
-  .hamburger {
-    display: flex;
-    flex: none;
+  .options {
+    justify-content: center;
   }
 }
