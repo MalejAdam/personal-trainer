@@ -50,14 +50,28 @@ const Header = () => (
       </button>
     </div>
     <div
+      className="hamburger"
       style={{
-        display: "flex",
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <div className="options">
+      <div
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+        style={{
+          display: "flex",
+          flex: "auto",
+        }}
+      >
+        <div
+          className="options"
+          style={{
+            display: "flex",
+            flex: "auto",
+            justifyContent: "space-between",
+          }}
+        >
           <HashLink className="option" to="#AboutUs">
             O NAS
           </HashLink>

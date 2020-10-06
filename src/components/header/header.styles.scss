@@ -30,3 +30,17 @@
     text-decoration: none;
   }
 }
+
+@media (max-width: 500px) {
+  .hamburger {
+    display: flex;
+    flex: auto;
+  }
+}
+
+@media (min-width: 501px) {
+  .hamburger {
+    display: flex;
+    flex: none;
+  }
+}
