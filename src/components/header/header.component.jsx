@@ -6,37 +6,31 @@ import logo from "./taob.jpg";
 import "./header.styles.scss";
 
 const Header = () => (
-  <nav
-    style={{ justifyContent: "space-between" }}
-    className="navbar navbar-expand-lg navbar-light bg-light"
-  >
+  <div className="header-container">
     <div
       style={{
-        display: "flex",
-        justifyContent: "center",
+        justifyContent: "space-between",
         alignItems: "center",
+        display: "flex",
       }}
     >
       <img
         src={logo}
-        width="100"
-        height="100"
-        className="d-inline-block align-top"
+        className="header-image d-inline-block align-top "
         alt="logo"
       />
-      <p
-        style={{
-          margin: "0px",
-          fontWeight: "bold",
-          color: "rgb(180, 63, 180)",
-          fontSize: "30px",
-        }}
-        className="d-none d-sm-block"
-      >
-        The Art Of Bodybuilding
+      <p style={{ fontWeight: "bold" }}>
+        Zrobimy z Twojego ciała dzieło sztuki
       </p>
     </div>
-    <div style={{ flex: "auto", display: "flex", justifyContent: "flex-end" }}>
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        padding: "1rem 0",
+      }}
+    >
       <button
         className="navbar-toggler"
         type="button"
@@ -48,36 +42,37 @@ const Header = () => (
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-    </div>
-    <div
-      className="hamburger"
-      style={{
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <div
-          className="options"
-          style={{
-            display: "flex",
-            flex: "auto",
-            justifyContent: "space-between",
-          }}
-        >
-          <HashLink className="option" to="#AboutUs">
-            O NAS
+        <div className="options">
+          <HashLink className="option" to="/">
+            HOME
           </HashLink>
           <Link className="option" to="">
-            REZERWACJA
+            NASI TRENERZY
           </Link>
-          <HashLink className="option" to="#Contact">
-            KONTAKT
+          <HashLink className="option" to="#Cooperation">
+            WSPÓŁPRACA
+          </HashLink>
+          <HashLink className="option" to="/">
+            KONTAKT / REZERWACJE
+          </HashLink>
+          <Link className="option" to="">
+            CENNIK
+          </Link>
+          <HashLink className="option" to="#Cooperation">
+            OFERTA ŚLUBNA
+          </HashLink>
+          <Link className="option" to="">
+            DLA FIRM
+          </Link>
+          <HashLink className="option" to="#Cooperation">
+            KARTY PODARUNKOWE
           </HashLink>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 );
 
 export default Header;

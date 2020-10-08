@@ -1,3 +1,13 @@
+.header-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.header-image {
+  width: 100px;
+  height: 100px;
+}
+
 .header {
   height: 100px;
   width: 100%;
@@ -14,19 +24,23 @@
 .options {
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
   .option {
-    padding: 10px 15px;
+    // padding: 10px 15px;
     cursor: pointer;
-    // color: rgb(111, 50, 153);
-    color: black;
-    font-weight: bold;
+    color: rgb(0, 115, 170);
+    font-weight: 600;
+    font-family: "Crimson Text", "Baskerville Old Face", Garamond,
+      "Times New Roman", serif;
+    font-size: 22px;
   }
 
   .option:hover {
-    color: rgb(180, 63, 180);
+    color: #005077;
     text-decoration: none;
   }
 }
