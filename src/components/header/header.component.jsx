@@ -24,7 +24,7 @@ const Header = () => (
       </p>
     </div>
     <nav
-      className="navbar navbar-expand-lg navbar-light bg-light"
+      className="navbar navbar-expand-lg navbar-light"
       style={{
         display: "flex",
         justifyContent: "space-between",
