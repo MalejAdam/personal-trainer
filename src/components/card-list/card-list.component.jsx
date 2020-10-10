@@ -25,27 +25,27 @@ export const CardList = (props) => {
         </p>
       </div>
       <div className="col-12">
-        <p style={{ fontSize: "25px", width: "750px", margin: "0 auto" }}>
+        <p style={{ fontSize: "25px", maxWidth: "750px", margin: "0 auto" }}>
           / UTRATA WAGI / PRZYROST MIĘŚNI / PRZYGOTOWANIA DO ŚLUBU / ONLINE
           COACHING / DIETETYKA /
         </p>
       </div>
       <div className="row" style={{ margin: "30px auto" }}>
-        <div className="col-4">
+        <div className="col-12 col-md-4">
           <img
             alt="img1"
             src={picture1}
             style={{ height: "500px", width: "350px" }}
           />
         </div>
-        <div className="col-4">
+        <div className="col-12 col-md-4">
           <img
             alt="img2"
             src={picture2}
             style={{ height: "500px", width: "350px", marginTop: "50px" }}
           />
         </div>
-        <div className="col-4">
+        <div className="col-12 col-md-4">
           <img
             alt="img3"
             src={picture3}
