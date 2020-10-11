@@ -41,10 +41,10 @@ export const Home = () => {
           >
             TRENUJ Z TAOB
           </p>
-          <p style={{ fontSize: "20px", width: "400px", marginLeft: 'auto', marginRight: 'auto' }}>
+          <p className="p-description" >
             Czas wprowadzić marzenia o idealnej sylwetce w życie.
           </p>
-          <p style={{ fontSize: "20px", width: "400px", marginLeft: 'auto', marginRight: 'auto' }}>
+          <p className="p-description">
             Niezależnie od tego co jest Twoim celem, możemy razem to osiągnąć.
           </p>
         </div>
@@ -60,7 +60,7 @@ export const Home = () => {
           >
             100% RZETELNOŚCI
           </p>
-          <p style={{ fontSize: "20px", width: "400px", marginLeft: 'auto', marginRight: 'auto' }}>
+          <p className="p-description">
             Najlepsi trenerzy personalni certyfikowani przez REPs Polska.
           </p>
         </div>
@@ -70,8 +70,8 @@ export const Home = () => {
             src={picture3}
             className="image"
           />
-          <p
-            style={{ fontSize: "20px", fontWeight: "bold", marginTop: "70px", width: "400px", marginLeft: 'auto', marginRight: 'auto' }}
+          <p className="p-description"
+            style={{ fontWeight: "bold", marginTop: "70px" }}
           >
             SPRAWDŹ TAOB W SOCIAL MEDIA
           </p>

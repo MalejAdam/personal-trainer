@@ -3,11 +3,6 @@
   margin: 0 auto;
 }
 
-.image {
-  height: 500px;
-  width: 400px;
-}
-
 @media (max-width: 500px) {
   .logo {
     width: 320px;
@@ -17,6 +12,13 @@
   .image {
     height: 400px;
     width: 300px;
+  }
+
+  .p-description {
+    font-size: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -30,6 +32,13 @@
     height: 500px;
     width: 400px;
   }
+
+  .p-description {
+    font-size: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 700px) {
@@ -41,5 +50,12 @@
   .image {
     height: 500px;
     width: 400px;
+  }
+
+  .p-description {
+    font-size: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
