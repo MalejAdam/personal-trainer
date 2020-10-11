@@ -3,6 +3,12 @@
   margin: 0 auto;
   margin-top: 50px;
 
+  @media (max-width: 500px) {
+    .logo {
+      width: 320px;
+      height: 250px;
+    }
+  }
   .logo {
     width: 650px;
     height: 500px;

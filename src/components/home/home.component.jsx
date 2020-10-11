@@ -12,9 +12,9 @@ export const Home = () => {
     <div className="home-container row pt-2">
       <div className="col-12">
         <img
+          className="logo"
           alt="logo"
           src={logo}
-          style={{ width: "650px", height: "500px" }}
         />
       </div>
       <div className="col-12">
