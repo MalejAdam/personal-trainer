@@ -48,7 +48,7 @@ const Header = () => (
           <HashLink className="option" to="/">
             HOME
           </HashLink>
-          <Link className="option" to="">
+          <Link className="option" to="trenerzy">
             NASI TRENERZY
           </Link>
           <HashLink className="option" to="#Cooperation">

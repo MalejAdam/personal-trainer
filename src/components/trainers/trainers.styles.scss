@@ -1,0 +1,23 @@
+.trainers-container {
+  width: 85vw;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  .logo {
+    width: 650px;
+    height: 500px;
+  }
+
+  p {
+    font-family: "Crimson Text", "Baskerville Old Face", Garamond,
+      "Times New Roman", serif;
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .main-description {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+  }
+}

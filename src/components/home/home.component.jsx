@@ -1,18 +1,15 @@
 import React from "react";
-import { AboutUs } from "../about-us/about-us.component";
-import { Card } from "../card/card.component";
-import { Contact } from "../contact/contact.component";
 import picture1 from "./picture1.jpeg";
 import picture2 from "./picture2.jpeg";
 import picture3 from "./picture3.jpeg";
 import {SocialIcon} from "react-social-icons";
 
 import logo from "./logo.jpeg";
-import "./card-list.styles.css";
+import "./home.styles.scss";
 
-export const CardList = (props) => {
+export const Home = () => {
   return (
-    <div className="card-list row pt-2">
+    <div className="home-container row pt-2">
       <div className="col-12">
         <img
           alt="logo"

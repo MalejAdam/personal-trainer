@@ -1,7 +1,10 @@
 import React, { Component } from "react";
+import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from "./components/header/header.component";
 import { CardList } from "./components/card-list/card-list.component";
+import {Home} from './components/home/home.component'
 import "./App.css";
+import { Trainers } from "./components/trainers/trainers.component";
 
 class App extends Component {
   constructor() {
@@ -51,7 +54,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <CardList trainers={this.state.trainers}></CardList>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/trenerzy" component={Trainers} />
+        </Switch>
       </div>
     );
   }

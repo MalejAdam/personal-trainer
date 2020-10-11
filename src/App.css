@@ -10,5 +10,8 @@ body {
 h1 {
   font-family: "Bigelow Rules";
   font-size: 50px;
-  color: #0ccac4;
+  color: black;
+  font-weight: bold;
+  font-family: "Crimson Text", "Baskerville Old Face", Garamond,
+    "Times New Roman", serif;
 }
