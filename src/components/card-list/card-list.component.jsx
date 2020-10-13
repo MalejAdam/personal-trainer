@@ -1,7 +1,4 @@
 import React from "react";
-import { AboutUs } from "../about-us/about-us.component";
-import { Card } from "../card/card.component";
-import { Contact } from "../contact/contact.component";
 import picture1 from "./picture1.jpeg";
 import picture2 from "./picture2.jpeg";
 import picture3 from "./picture3.jpeg";
@@ -37,7 +34,7 @@ export const CardList = (props) => {
           <img
             alt="img1"
             src={picture1}
-            className="image"
+            className="image side-image"
           />
           <p
             style={{ fontSize: "20px", fontWeight: "bold", marginTop: "70px" }}
@@ -55,8 +52,7 @@ export const CardList = (props) => {
           <img
             alt="img2"
             src={picture2}
-            className="image"
-            style={{ marginTop: "50px" }}
+            className="image middle-image"
           />
           <p
             style={{ fontSize: "20px", fontWeight: "bold", marginTop: "20px" }}
@@ -71,7 +67,7 @@ export const CardList = (props) => {
           <img
             alt="img3"
             src={picture3}
-            className="image"
+            className="image side-image"
           />
           <p
             style={{ fontSize: "20px", fontWeight: "bold", marginTop: "70px", width: "400px", marginLeft: 'auto', marginRight: 'auto' }}

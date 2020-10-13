@@ -34,10 +34,11 @@ export const Home = () => {
           <img
             alt="img1"
             src={picture1}
-            className="image"
+            className="image side-image"
           />
           <p
-            style={{ fontSize: "20px", fontWeight: "bold", marginTop: "70px" }}
+            className="p-title site-p-title"
+            style={{ fontSize: "20px" }}
           >
             TRENUJ Z TAOB
           </p>
@@ -52,10 +53,10 @@ export const Home = () => {
           <img
             alt="img2"
             src={picture2}
-            className="image"
-            style={{ marginTop: "50px" }}
+            className="image middle-image"
           />
           <p
+            className="p-title"
             style={{ fontSize: "20px", fontWeight: "bold", marginTop: "20px" }}
           >
             100% RZETELNOŚCI
@@ -68,10 +69,10 @@ export const Home = () => {
           <img
             alt="img3"
             src={picture3}
-            className="image"
+            className="image side-image"
           />
-          <p className="p-description"
-            style={{ fontWeight: "bold", marginTop: "70px" }}
+          <p className="p-title p-description site-p-title"
+            style={{ fontWeight: "bold" }}
           >
             SPRAWDŹ TAOB W SOCIAL MEDIA
           </p>

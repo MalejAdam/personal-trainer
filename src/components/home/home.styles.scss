@@ -3,6 +3,14 @@
   margin: 0 auto;
 }
 
+.middle-image {
+  margin-top: 50px;
+}
+
+.p-title {
+  font-weight: bold;
+}
+
 @media (max-width: 500px) {
   .logo {
     width: 320px;
@@ -12,6 +20,14 @@
   .image {
     height: 400px;
     width: 300px;
+  }
+
+  .side-image {
+    margin-top: 50px;
+  }
+
+  .site-p-title {
+    margin-top: 20px;
   }
 
   .p-description {
@@ -33,6 +49,10 @@
     width: 400px;
   }
 
+  .site-p-title {
+    margin-top: 70px;
+  }
+
   .p-description {
     font-size: 20px;
     width: 400px;
@@ -50,6 +70,10 @@
   .image {
     height: 500px;
     width: 400px;
+  }
+
+  .site-p-title {
+    margin-top: 70px;
   }
 
   .p-description {

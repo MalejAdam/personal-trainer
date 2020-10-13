@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Header from "./components/header/header.component";
-import { CardList } from "./components/card-list/card-list.component";
 import {Home} from './components/home/home.component'
 import "./App.css";
 import { Trainers } from "./components/trainers/trainers.component";
